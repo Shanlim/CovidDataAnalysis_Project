@@ -178,7 +178,7 @@ FROM PortfolioProject..NashvilleHousing
 SELECT *
 FROM RowNumCTE
 WHERE row_num > 1
-
+ORDER BY PropertyAddress
 
 
 SELECT *
