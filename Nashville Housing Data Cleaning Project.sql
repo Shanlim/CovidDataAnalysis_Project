@@ -171,7 +171,7 @@ SELECT *,
 				 LegalReference
 				 ORDER BY
 					UniqueID
-					) row_num
+					) AS row_num
 
 FROM PortfolioProject..NashvilleHousing
 )
